@@ -35,14 +35,16 @@ if(choice==='January'){
 };
 
 let days=31
-if(choice==='January'||'March'||'May'||'July'||'August'||'October'||'December'){
-	days=31;
-}else if(choice==='April'||'June'||'September'||'November'){
-
+if(choice==='April'||
+	choice==='June'||
+	choice==='September'||
+	choice==='November'){
 	days=30;
 }else if(choice==='February'){
 	days=28;
-}
+}else{
+	days=31;
+};
 
   createCalendar(days, choice);
 });
