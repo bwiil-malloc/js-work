@@ -6,7 +6,7 @@ select.addEventListener('change', () => {
   const choice = select.value;
 
   // ADD CONDITIONAL HERE
-if(choice==='January'){
+/*if(choice==='January'){
 	h1.textContent='January';
 }else if(choice==='February'){
 	h1.textContent='February';
@@ -32,7 +32,7 @@ if(choice==='January'){
 	h1.textContent='December';
 }else{
 	h1.textContent='January';
-};
+};*/
 
 let days=31
 if(choice==='April'||
